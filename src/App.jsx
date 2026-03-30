@@ -411,7 +411,7 @@ export default function KaligramDiagnostic() {
               />
             </span>{" "}
             ?
-          </p>
+          </h1>
 
           <p
             style={{
