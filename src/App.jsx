@@ -329,7 +329,7 @@ export default function KaligramDiagnostic() {
     setLeadSubmitting(true);
     try {
       // WEBHOOK: Replace this URL with your N8N webhook or Google Apps Script URL
-      const WEBHOOK_URL = "https://YOUR-N8N-WEBHOOK-URL-HERE";
+      const WEBHOOK_URL = "https://kaligram.app.n8n.cloud/webhook/diagnostic-lead";
       await fetch(WEBHOOK_URL, {
         method: "POST",
         mode: "no-cors",
