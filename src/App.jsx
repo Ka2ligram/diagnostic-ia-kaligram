@@ -821,7 +821,7 @@ export default function KaligramDiagnostic() {
                 : "15 min pour garder votre avance. On identifie les prochains leviers."}
             </p>
             <a
-              href="https://calendly.com/kaligram-info/flash"
+              href="https://calendar.app.google/FtEZRnRGGWCPy1TXA"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => trackEvent("calendly_clicked", { score: totalScore, profile: profile.id })}
